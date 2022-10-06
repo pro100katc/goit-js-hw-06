@@ -1,7 +1,9 @@
+
 const refs = {
     input: document.querySelector('#name-input'),
     span: document.querySelector('#name-output'),
 }
+
 
 const onInputValue = (event) => {
     if (event.currentTarget.value !== "") {

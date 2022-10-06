@@ -8,11 +8,13 @@ const ref = {
 
 let counterValue = 0;
 
+
 const onDownValue = () => {
     counterValue -= 1;
     ref.value.textContent = counterValue;
     return counterValue;
 }
+
 
 const onUpValue = () => {
     counterValue += 1;
